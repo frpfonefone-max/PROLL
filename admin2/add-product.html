@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اضافة منتجات</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    
+<h2>إضافة منتج جديد</h2>
+
+<a href="Admin.html" class="ggg"><h4> لوحة التحكم والعرض</h4></a>
+
+</header>
+
+<div class="content">
+
+<!-- نموذج إضافة منتج -->
+
+
+<form class="add-product-form" action="add-product.php" method="POST" enctype="multipart/form-data">
+    
+    <label for="name">اسم المنتج:</label>
+    <input type="text" id="name" name="name" placeholder="ادخل اسم المنتج" required>
+    
+    <label for="category">الفئة:</label>
+    <select id="category" name="category" required>
+        <option value="">اختر الفئة</option>
+        <option value="mobiles">هواتف</option>
+        <option value="electronics">إلكترونيات</option>
+        <option value="solar">طاقة شمسية</option>
+        <option value="accessories">إكسسوارات</option>
+    </select>
+    
+    <label for="price">السعر:</label>
+    <input type="number" id="price" name="price" placeholder="ادخل السعر" required>
+    
+    <label for="quantity">الكمية:</label>
+    <input type="number" id="quantity" name="quantity" placeholder="ادخل الكمية" required>
+    
+    <label for="image">صورة المنتج:</label>
+    <input type="file" id="image" name="image">
+    
+    <button type="submit" class="add-btn">حفظ المنتج</button>
+</form>
+
+</div>
+
+</body>
+</html>
+</body>
+</html>

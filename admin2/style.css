@@ -1,0 +1,237 @@
+
+
+/* تنسيقات خاصة بالادمين*/
+body{
+
+margin:0;
+font-family:Tahoma;
+direction:rtl;
+background:#f4f6f9;
+
+}
+
+/* HEADER */
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:linear-gradient(135deg,#1a237e,#283593);
+
+color:white;
+
+padding:15px 30px;
+
+}
+
+/* LAYOUT */
+
+.container{
+
+display:flex;
+
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+width:230px;
+background:#1a237e;
+height:100vh;
+
+}
+
+.sidebar ul{
+
+list-style:none;
+padding:0;
+margin:0;
+
+}
+
+.sidebar li{
+
+border-bottom:1px solid rgba(255,255,255,0.1);
+
+}
+
+.sidebar a{
+
+display:block;
+padding:15px;
+color:white;
+text-decoration:none;
+
+}
+
+.sidebar a:hover{
+
+background:#3949ab;
+
+}
+
+/* CONTENT */
+
+.content{
+
+flex:1;
+padding:25px;
+
+}
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+gap:20px;
+margin-bottom:30px;
+
+}
+
+.card{
+
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+width:150px;
+text-align:center;
+
+}
+
+.card h3{
+
+margin:0;
+color:#1a237e;
+
+}
+
+/* TABLE */
+
+table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+
+}
+
+th,td{
+
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:center;
+
+}
+
+th{
+
+background:#283593;
+color:white;
+
+}
+
+/* BUTTONS */
+
+.edit{
+
+background:#4caf50;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+
+}
+
+.delete{
+
+background:#f44336;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+
+}
+
+
+/*تنسيقات خاصة بصفحة التحكم بالمنتجات*/
+.product-form{
+
+background:white;
+padding:20px;
+border-radius:10px;
+width:300px;
+
+}
+
+.product-form input{
+
+width:100%;
+padding:10px;
+margin-bottom:15px;
+
+}
+
+.product-form button{
+
+background:#1a237e;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+border-radius:5px;
+
+}
+
+
+
+
+
+
+
+.add-product-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.add-product-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add-product-form input,
+.add-product-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.add-product-form .add-btn {
+    margin-top: 15px;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-product-form .add-btn:hover {
+    background: #217dbb;
+}
+
+
+.ggg{
+    color: #31b6ea;
+    text-decoration: none;
+}

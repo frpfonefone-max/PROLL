@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب - متجر الحسام للإلكترونيات</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    
+    <!-- الهيدر (الرأس) -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+             <span class="navbar-brand logo-text  fw-bold d-flex align-items-center" href="home.html" >
+        <img src="الشعار.png" width="45" class="ms-2 logo-spin ra ">
+        متجر الحسام
+      </span>
+      <br>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- محتوى صفحة إنشاء حساب -->
+    <main class="page-content">
+        <div class="form-container">
+            <h2>إنشاء حساب جديد</h2>
+            
+            <form action="verify.html" method="post">
+                <div class="form-group">
+                    <label for="fullname">الاسم الكامل</label>
+                    <input type="text" id="fullname" name="fullname" class="form-control" required placeholder="أدخل اسمك الكامل">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="أدخل بريدك الإلكتروني">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required placeholder="أدخل رقم هاتفك">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">كلمة المرور</label>
+                    <input type="password" id="password" name="password" class="form-control" required placeholder="أدخل كلمة مرور قوية">
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">تأكيد كلمة المرور</label>
+                    <input type="password" id="confirm-password" name="confirm-password" class="form-control" required placeholder="أعد إدخال كلمة المرور">
+                </div>
+                
+                <button type="submit" class="btn btn-block">إنشاء الحساب</button>
+            </form>
+            
+            <div class="form-links">
+                <p>لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a></p>
+                <p><a href="home.html">العودة للرئيسية</a></p>
+            </div>
+        </div>
+    </main>
+
+
+
+     <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

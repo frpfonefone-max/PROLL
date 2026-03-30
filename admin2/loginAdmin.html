@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تسجيل الدخول</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+.login-box{
+    width:350px;
+    margin:100px auto;
+    background:#7e91a4;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.login-box h2{
+    margin-bottom:20px;
+    color:#151d68;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.login-box button{
+   
+    width:100%;
+    padding:10px;
+    background:#6d7ecb;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+
+<body >
+
+
+
+
+
+<div class="login-box">
+<h2>تسجيل الدخول</h2>
+
+<input type="text" id="username" placeholder="اسم المستخدم">
+<input type="password" id="password" placeholder="كلمة المرور">
+
+<button onclick="login()"><a href="Admin.html">دخول</a></button>
+
+
+<p id="error" style="color:red;"></p>
+</div>
+
+<script>
+function login(){
+
+let user = document.getElementById("username").value;
+let pass = document.getElementById("password").value;
+
+// بيانات تجريبية
+if(user === "admin" && pass === "1234"){
+    window.location.href = "Admin.html";
+}else{
+    document.getElementById("error").innerText = "بيانات غير صحيحة";
+}
+
+}
+</script>
+
+</body>
+</html>
